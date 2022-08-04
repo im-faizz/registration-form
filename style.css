@@ -36,9 +36,10 @@ input[type="file"] {
 
 textarea {
     background-color: rgb(41, 38, 35);
-    color: white;
+    
 }
 
 textarea {
     display: block;
+    color: white;
 }
