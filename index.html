@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <h1>Registrasi</h1>
+        <p>Tolong isi dengan benar</p>
+        <form>
+            <fieldset>
+                <label>
+                  Nama: <input type="name" name="nama" required>
+                </label>
+                <label> 
+                  Umur: <input type="number" name="umur" min="12" max="60" required>
+                </label>
+                <label>
+                  Email: <input type="email" name="email" required>
+                </label>
+                <label>
+                  Password: <input type="password" name="pass" pattern="(a-z0-9){8,}" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>
+                    <input type="radio" name="account-type"> Personal Account</label>
+                <label>
+                    <input type="radio" name="account-type"> Bussines Account</label>
+            </fieldset>
+
+            <fieldset>
+                <label>
+                    Unggah Foto Profil <input type="file" name="foto" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>
+                    Nilai project saya
+                    <select>
+                        <option>pilih salah satu</option>
+                        <option>baik</option>
+                        <option>lumayan</option>
+                        <option>bagus</option>
+                        <option>sangat bagus</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>
+                    berikan kritik dan saran
+                    <textarea rows="3" cols="30" placeholder="Projectnya sangat bagus"></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+    </html>

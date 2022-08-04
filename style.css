@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;;
+}
+
+h1, p {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+input {
+    display: flex;
+    background-color: rgb(41, 38, 35);
+}
+
+input[type="submit"] {
+    margin-left: 14px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    margin: 20px auto;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+input[type="file"] {
+    background-color: rgb(41, 38, 35);
+}
+
+textarea {
+    background-color: rgb(41, 38, 35);
+}
+
+textarea {
+    display: block;
+}
